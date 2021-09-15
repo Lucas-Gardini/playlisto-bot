@@ -1,0 +1,35 @@
+{
+	"name": "playlisto-bot",
+	"version": "1.0.0",
+	"description": "A simple discord bot made to play music",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon"
+	},
+	"dependencies": {
+		"@discordjs/opus": "^0.6.0",
+		"@discordjs/voice": "^0.6.0",
+		"discord.js": "12.5.3",
+		"ffmpeg-static": "^4.4.0",
+		"slugify": "^1.6.0",
+		"ytdl-core": "^4.9.1",
+		"ytpl": "^2.2.3",
+		"ytsr": "^3.5.3"
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"ora": "^6.0.1"
+	},
+	"keywords": [
+		"Discord",
+		"Bot",
+		"MusicBot"
+	],
+	"author": {
+		"email": "lucasgardini.dias@hotmail.com",
+		"name": "Lucas Gardini Dias",
+		"url": "https://github.com/Lucas-Gardini"
+	},
+	"license": "GPL-3.0"
+}
